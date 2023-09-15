@@ -1,0 +1,56 @@
+.main {
+    padding: 10px 80px;
+    color: white;
+  }
+  
+  .copy-container h1 {
+    font-size: 15px;
+    padding: 15px;
+  }
+  
+  .copy-container h2 {
+    font-size: 60px;
+  }
+  
+  .copy-container span {
+    color: #ff4a4a;
+  }
+  
+  .contents {
+    height: 500px;
+    margin-top: 100px;
+  }
+  
+  .section-title {
+    border-bottom: 2px solid rgb(82, 82, 225);
+    color: white;
+    font-size: 28px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+  }
+  
+  .contents-item {
+    float: left;
+    margin-right: 40px;
+    align-items: center;
+    color: white;
+  }
+.boruto{
+    width: 200px;
+    height: 330px;
+    padding: 5px;
+    text-align: center; 
+    justify-content: left;
+    align-items: center;
+    }
+  
+  
+  .contents-item p {
+    font-size: 18px;
+    padding: 5px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+  }
