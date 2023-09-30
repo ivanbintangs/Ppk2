@@ -1,53 +1,61 @@
 .main1 {
     padding: 10px 90px;
     color: white;
-    height: 180vh;
+    height: 100%;
     background-color: rgb(40, 35, 40);
 
 }
 
 .main{
-  display: flex;
   align-items: center;
   padding: 10px 90px;
-}
-  
-  .copy-container b {
-    font-size: 25px;
-    padding: 15px;
-  }
-
-.doraemon{
-  padding-right: 100px;
-  display: flex ;
-  padding: 1px;
-  align-items: center;
-  justify-content: space-between;
-
+  margin: 10px;
+  justify-content: center;
+  text-align: center;
 }
 
-  .card-img{
+.copy-container b{
+  font-family: "robotop",sans-serif;  font-size: 30px;
+ 
+  color:red
+}
+.copy-container b span{
+  color: rgb(235, 232, 232);
 
-    height: 300px;
-    weight:400px ;
-    border-radius: 20px;
-    opacity: 50%;
-    padding: 10px;
-  }
+}
   
-  .copy-container h2 {
-    font-size: 60px;
-  }
-  
-  .copy-container span {
-    color: #ff4a4a;
-  }
-  
-  .contents {
+.doraemon1{
+  align-items: center; 
+}
+.carousel-inner{
+ 
+}
+
+.carosegambar{
+
+}
+
+.carousel-item.active{
+  justify-content: center;
+ 
+}
+.d-block.w-100{
+  opacity: 75%;
+}
+
+
+
+
+.carousel-caption.d-none.d-md-block{
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.contents {
     height: 500px;
     margin-top: 50px;
     
-  }
+}
   
   .search{
     display: flex;
@@ -106,6 +114,7 @@
     text-align: center; 
     justify-content: left;
     align-items: center;
+    
     }
   
   
