@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        display: grid;
+        grid-template-columns: 50% auto;
+        background-color: #007bff;
+        color: #fff;
+      }
+
+      header h1{
+        margin-left: 10px;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      .card {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 20px;
+        margin: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        display: inline-block;
+        width: calc(33.33% - 20px);
+        vertical-align: top;
+        background-color: #fff;
+      }
+
+      .card img {
+        width: 100%;
+      }
+
+      .card h3 {
+        margin: 0;
+      }
+
+      .btn {
+        padding: 10px 20px;
+        background-color: #f71528;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      
+      .btn:hover {
+        background-color: #0056b3;
+      }
+      .action {
+        justify-self: end;
+        margin-right: 10px;
+        align-self: center;
+      }
+
+      a {
+        text-decoration: none;
+      }
+    </style>
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <header>
+      <h1>Anime Website</h1>
+      <div class="action">
+        <a type="submit" value="Logout" class="btn" href="/Ppk2/index.html"/>logout</a>
+        <a type="submit" value="create" class="btn" href="create.html"/>Tambah Anime</a>
+      </div>
+    </header>
+    <div class="container">
+      <div class="card">
+        <h3>Jujutsu kaisen</h3>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiFSFErMCdPwzuAQU3MH-Po76JzlvB8qjqqg&usqp=CAU" alt="" />
+        <p>Deskripsi singkat tentang anime ini.</p>
+      </div>
+      <div class="card">
+        <h3>Naruto</h3>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj0VjO4th_ixHcvqSFG6NjgqYxUss6QbWy7g&usqp=CAU" alt="" />
+        <p>Deskripsi singkat tentang anime ini.</p>
+      </div>
+      <div class="card">
+        <h3>Dragon Ball</h3>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9NCmDdFweb5ENMsv0tE-dCu1hhUHanWvrNA&usqp=CAU" alt="" />
+        <p>Deskripsi singkat tentang anime ini.</p>
+      </div>
+    </div>
+  </body>
+</html>
